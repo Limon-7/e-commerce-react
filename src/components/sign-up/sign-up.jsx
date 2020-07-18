@@ -38,7 +38,7 @@ class SignUp extends Component {
         }
     };
     handleOnChange = (event) => {
-        const { name, value } = event.target.value;
+        const { name, value } = event.target;
         this.setState({ [name]: value });
     };
     render() {

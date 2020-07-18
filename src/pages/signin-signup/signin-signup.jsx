@@ -7,6 +7,7 @@ const SigninSignup = () => {
     return (
         <div className="signin-signup">
             <Signin />
+            <SignUp />
         </div>
     );
 };
