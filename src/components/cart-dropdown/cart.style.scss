@@ -9,6 +9,11 @@
     background: white;
     top: 80px;
     right: 0;
+    .empty-message {
+        font-size: 18px;
+        color: red;
+        margin: 50px auto;
+    }
     .cart-items {
         height: 280px;
         display: flex;
